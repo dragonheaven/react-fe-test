@@ -1,0 +1,38 @@
+{
+  // Configuration for JavaScript files
+  "extends": ["airbnb"],
+  "rules": {
+    "prettier/prettier": [
+      "off",
+      {
+        "singleQuote": true
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "consistent-return": 0,
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "max-len": ["error", { "code": 120 }],
+    "no-case-declarations": 0,
+    "no-plusplus": 0,
+    "no-shadow": 0,
+    "no-underscore-dangle": 0,
+    "react/button-has-type": 0,
+    "react/destructuring-assignment": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-array-index-key": 0,
+    "new-cap": 0,
+    "object-curly-newline": 0,
+    "no-unused-vars": 0,
+    "quotes": 0,
+    "padded-blocks": 0,
+    "arrow-body-style": 0,
+    "object-curly-spacing": 0
+  }
+}
